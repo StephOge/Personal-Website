@@ -1,0 +1,193 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="" href="index.js">
+    <script src="https://kit.fontawesome.com/1a3763aee1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+         <div class="container">
+            <div class="row justify">
+                 <div class="logo">
+                     <a href="#">S/N</a>
+                 </div>
+                 <div class="burger-button shadow in-shadow">
+                    <span></span>
+                 </div>
+            </div>
+         </div>
+    </header>
+    <profile class="profile">
+          <div class="flex">
+              <div>
+                 <img width="100%" height="50%" src="pix3.JPG" srcset="">
+              </div>
+              <div>
+                 <h1>ABOUT ME</h1>
+                 <p>
+                    I am <span class="name">STEPHENIE OGE NWACHUKWU</span>, an enthusiastic and self-motivated <span class="name">WEB and Mobile DEVELOPER</span> and <span class="name">DESIGNER</span> with experience in designing, and managing e-commerce sites and internal frameworks to deliver exceptional customer services, improve usability and maximize efficiency. Specializes in responsive designs, HTML, Cascading Style Sheets (CSS), JavaScript. Thrives at creating pixel-perfect designs with cross-browser compatibility issues.
+                 </p>
+               </div>
+          </div>
+    </profile>
+    <hr>
+    <section>
+        <h1 class="photos">PHOTOS</h1>
+        <ul class="photo">
+            <li><img width="100%" height="50%" src="pix1.JPG"></li>
+            <li><img width="100%" height="50%" src="pix2.JPG"></li>
+            <li><img width="100%" height="50%" src="pix3.JPG"></li>
+            <li><img width="100%" height="50%" src="pix4.JPG"></li>
+            <li><img width="100%" height="50%" src="pix5.JPG"></li>
+        </ul>
+    </section>
+    <hr>
+
+    <div class="tab-titles">
+        <h2 class="tab-links active-link" onclick="opentab('skills')">Skils</h2>
+        <h2 class="tab-links" onclick="opentab('experience')">Experience</h2>
+        <h2 class="tab-links" onclick="opentab('education')">Education</h2>
+    </div>
+    <div class="tab-contents active-tab" id="skills">
+        <ul>
+           <li><span>Git and GitHub</span> <br> Web app development</li> 
+           <li><span> Jenkins</span> <br> HTML & CSS</li> 
+           <li><span> JavaScript</span> <br>  React</li> 
+           <li><span> Web development</span> <br>Visual Studio Code, </li> 
+           <li><span>Microsoft Excel </span> <br>ReactJS </li> 
+           <li><span> Figma</span> <br>User-interface Design. </li> 
+           <li><span> UI Figma plug-ins </span> <br> Zoom</li> 
+        </ul>
+    </div>
+    <div class="tab-contents" id="experience">
+         <ul>
+            <li><span>2022 - current</span> <br> Frontend Developer at stutern</li>
+            <li><span>2021 - 2022</span> <br> Ui/Ux Designer at Dungada Technologies </li>
+            <li><span>2020 - 2021</span> <br> IT Support at Chateux Holding</li>
+            <li><span>2019 - 2020</span> <br> Greenlife Pharmaceutical</li>
+         </ul>
+    </div>
+    <div class="tab-contents" id="education">
+        <ul>
+            <li><span>2018</span> <br> BSC from University of Nigera Nsukka</li>
+        </ul>
+    </div>
+    <!-- <section>
+       <div>
+          <div class="skills">
+              <h1 class="photos">SOFT SKILLS</h1>
+              <p>Git and GitHub, Docker, Jenkins, HTML & CSS, JavaScript, React, WordPress, Visual Studio Code, Microsoft Excel,  ReactJS, Office 365, Teams, Zoom, Google Meet Zoom, Ms. Teams, Skype, Google Meet, Figma, Design systems, UI Figma plug-ins, User-interface Design.</p>
+          </div>
+          <hr>
+          <div class="work">
+             <h1 class="photos">EXPERIENCE</h1>
+             <p>FRONTEND DEVELOPER AT STUTERN</p>
+            <ul class="work">
+                <li>Use markup languages like HTML to create user-friendly web pages.</li>
+                <li>Maintain and improve website.</li>
+                <li>Optimize applications for maximum speed.</li>
+                <li>Design mobile-based features.</li>
+                <li>Collaborate with back-end developers and web designers to improve usability.</li>
+                <li> Get feedback from, and build solutions for, users and customers.</li>
+                <li>Created HTML email templates.</li>
+                <li>Bringing mock-ups to life using HTML, CSS, JavaScript to build static and responsive websites.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="work">
+             <h1 class="photos">EDUCATION</h1>
+              Bachelor of Science <br/>
+              University of Nigeria Nsukka <br/>
+              Economics <br/>
+          </div>
+       </div>
+    </section> -->
+    <div id="services">
+        <div class="container">
+             <h1 class="sub-title">MY SERVICES</h1>
+             <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Mobile Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-pen-nib"></i>
+                    <h2>Web/Mobile Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Ui/Ux Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Learn more</a>
+                </div>
+             </div>
+        </div>
+    </div>
+
+    <!-- --------my works -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">MY WORK</h1>
+        <div class="work-list">
+            <div class="work">
+                <img width="100%" height="200px" src="work1.png">
+                <div class="layer">
+                    <h3>Udemy Clone landing page</h3>
+                    <a href="#"><i class="fa-regular fa-link-slash"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img width="100%" height="200px" src="work2.png">
+                <div class="layer">
+                    <h3>Netflix Clone landing page</h3>
+                    <a href="#"><i class="fa-regular fa-link-slash"></i></a>
+                </div>
+            </div>
+            <!-- <div class="work">
+                <img width="100%" height="200px" src="work3.png">
+            </div> -->
+            <div class="work">
+                <img width="100%" height="200px" src="work4.png">
+                <div class="layer">
+                    <h3>StopWacth</h3>
+                    <a href="#"><i class="fa-regular fa-link-slash"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablinks of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementsById(tabname).classList.add(active-tab)
+        }
+    </script>
+</body>
+</html>
